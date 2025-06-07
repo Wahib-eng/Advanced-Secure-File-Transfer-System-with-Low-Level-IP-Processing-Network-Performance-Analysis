@@ -218,14 +218,9 @@ Demo videosu YouTube'da yayınlanacak ve raporda linkle paylaşılacaktır.
 
 ## 👨‍💻 Geliştirici
 
-**[Öğrenci Adı]**  
+**Wahib MOQBEL**  
 Bilgisayar Ağları Dönem Projesi  
-[Üniversite] - [Yıl]
+[Bursa Tecknical University] - [2025]
 
-## 📄 Lisans
-
-Bu proje eğitim amaçlı geliştirilmiştir.
-
----
 
 > **Not**: Bu sistem eğitim amaçlıdır. Gerçek üretim ortamında kullanımdan önce ek güvenlik testleri yapılmalıdır. 
