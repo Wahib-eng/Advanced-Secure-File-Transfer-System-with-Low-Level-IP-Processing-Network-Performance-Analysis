@@ -1,0 +1,91 @@
+{
+  "summary": {
+    "test_count": {
+      "latency_tests": 3,
+      "bandwidth_tests": 0,
+      "packet_loss_tests": 4,
+      "condition_tests": 0
+    },
+    "generated_at": "2025-06-07T06:11:42.045780"
+  },
+  "results": {
+    "latency_tests": [
+      {
+        "target": "8.8.8.8",
+        "timestamp": "2025-06-07T06:10:37.081876",
+        "average_latency": 52.5,
+        "min_latency": 51.0,
+        "max_latency": 54.0,
+        "jitter": 0.8498365855987975,
+        "packet_count": 10,
+        "success_rate": 100.0
+      },
+      {
+        "target": "8.8.8.8",
+        "timestamp": "2025-06-07T06:11:03.748513",
+        "average_latency": 52.6,
+        "min_latency": 52.0,
+        "max_latency": 54.0,
+        "jitter": 0.8944271909999159,
+        "packet_count": 5,
+        "success_rate": 100.0
+      },
+      {
+        "target": "1.1.1.1",
+        "timestamp": "2025-06-07T06:11:05.145508",
+        "average_latency": 11.0,
+        "min_latency": 10.0,
+        "max_latency": 12.0,
+        "jitter": 0.7071067811865476,
+        "packet_count": 5,
+        "success_rate": 100.0
+      }
+    ],
+    "bandwidth_tests": [],
+    "packet_loss_tests": [
+      {
+        "target": "8.8.8.8",
+        "timestamp": "2025-06-07T06:10:53.366759",
+        "expected_loss_rate": 0.05,
+        "actual_loss_rate": 0.05,
+        "sent_packets": 20,
+        "received_packets": 19,
+        "lost_packets": 1,
+        "lost_packet_ids": [
+          8
+        ]
+      },
+      {
+        "target": "127.0.0.1",
+        "timestamp": "2025-06-07T06:11:02.878513",
+        "expected_loss_rate": 0.02,
+        "actual_loss_rate": 0.0,
+        "sent_packets": 10,
+        "received_packets": 10,
+        "lost_packets": 0,
+        "lost_packet_ids": []
+      },
+      {
+        "target": "8.8.8.8",
+        "timestamp": "2025-06-07T06:11:04.471830",
+        "expected_loss_rate": 0.02,
+        "actual_loss_rate": 0.0,
+        "sent_packets": 10,
+        "received_packets": 10,
+        "lost_packets": 0,
+        "lost_packet_ids": []
+      },
+      {
+        "target": "1.1.1.1",
+        "timestamp": "2025-06-07T06:11:05.448911",
+        "expected_loss_rate": 0.02,
+        "actual_loss_rate": 0.0,
+        "sent_packets": 10,
+        "received_packets": 10,
+        "lost_packets": 0,
+        "lost_packet_ids": []
+      }
+    ],
+    "conditions": []
+  }
+}
