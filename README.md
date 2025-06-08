@@ -1,13 +1,13 @@
 # Advanced Secure File Transfer System
 **Bilgisayar Ağları Dönem Projesi**
 
-## 📌 Proje Özeti
+##  Proje Özeti
 
 Bu proje, güvenli dosya transferi, düşük seviyeli IP işleme ve ağ performans analizi özelliklerini içeren kapsamlı bir ağ güvenlik sistemidir. Proje, AES/RSA şifreleme, manuel paket fragmentasyonu, MITM saldırı simülasyonu ve gerçek zamanlı ağ izleme özelliklerini içermektedir.
 
-## 🚀 Özellikler
+##  Özellikler
 
-### ✅ Temel Özellikler (Zorunlu)
+###  Temel Özellikler (Zorunlu)
 
 - **Güvenli Dosya Transfer Sistemi**
   - AES-256 ve RSA-2048 şifreleme
@@ -32,14 +32,14 @@ Bu proje, güvenli dosya transferi, düşük seviyeli IP işleme ve ağ performa
   - Paket enjeksiyonu simülasyonu
   - Şifreleme etkinliği testi
 
-### ✅ Bonus Özellikler
+###  Bonus Özellikler
 
 - **Hibrit TCP/UDP Geçişi** - Ağ koşullarına göre protokol adaptasyonu
 - **Dinamik Sıkışıklık Kontrolü** - Bant genişliği optimizasyonu
 - **Grafik Kullanıcı Arayüzü** - Modern ve kullanıcı dostu arayüz
 - **Gelişmiş Saldırı Simülasyonları** - Gerçek zamanlı saldırı tespiti
 
-## 🛠️ Kurulum
+##  Kurulum
 
 ### Gereksinimler
 
@@ -65,7 +65,7 @@ pip install scapy pycryptodome matplotlib
 python main.py --check-deps
 ```
 
-## 📖 Kullanım
+##  Kullanım
 
 ### GUI Uygulaması (Önerilen)
 
@@ -100,7 +100,7 @@ python main.py --security
 python main.py --demo
 ```
 
-## 📁 Proje Yapısı
+## Proje Yapısı
 
 ```
 secure-file-transfer-system/
@@ -118,7 +118,7 @@ secure-file-transfer-system/
     └── test_config.json
 ```
 
-## 🔧 Teknik Detaylar
+##  Teknik Detaylar
 
 ### Şifreleme
 
@@ -139,7 +139,7 @@ secure-file-transfer-system/
 - Replay attack koruması
 - Paket bütünlük kontrolü
 
-## 📊 Performans Analizi
+##  Performans Analizi
 
 Sistem aşağıdaki metrikleri ölçer:
 
@@ -149,14 +149,14 @@ Sistem aşağıdaki metrikleri ölçer:
 - **Packet Loss**: Paket kaybı oranı
 - **Throughput**: Efektif veri aktarım hızı
 
-## 🛡️ Güvenlik Analizi
+##  Güvenlik Analizi
 
 - **Paket Yakalama**: Gerçek zamanlı trafik izleme
 - **Şifreleme Analizi**: Entrophy analizi ile şifreleme etkinliği
 - **MITM Simülasyonu**: Man-in-the-Middle saldırı testi
 - **Saldırı Tespiti**: Şüpheli trafik paternleri tanıma
 
-## 🎯 Test Senaryoları
+##  Test Senaryoları
 
 ### 1. Dosya Transfer Testi
 ```bash
@@ -177,7 +177,7 @@ python main.py --performance
 python main.py --security
 ```
 
-## 📈 Rapor Çıktıları
+##  Rapor Çıktıları
 
 Sistem aşağıdaki raporları otomatik olarak oluşturur:
 
@@ -185,7 +185,7 @@ Sistem aşağıdaki raporları otomatik olarak oluşturur:
 - `security_analysis_report.json` - Güvenlik analizi sonuçları
 - `comprehensive_report_[timestamp].json` - Kapsamlı sistem raporu
 
-## 🔬 Wireshark Analizi
+##  Wireshark Analizi
 
 Paket yakalama ve analiz için:
 
@@ -194,7 +194,7 @@ Paket yakalama ve analiz için:
 3. Filtre: `tcp.port == 8888`
 4. Şifrelenmiş trafiği gözlemleyin
 
-## 📋 Proje Gereksinimleri Karşılama
+##  Proje Gereksinimleri Karşılama
 
 | Gereksinim | Durum | Açıklama |
 |------------|-------|----------|
@@ -205,9 +205,9 @@ Paket yakalama ve analiz için:
 | GUI | ✅ | Modern Tkinter arayüzü |
 | Bonus Özellikler | ✅ | TCP/UDP switching, IDS |
 
-## 🎬 Demo Video
+##  Video
 
-Demo videosu YouTube'da yayınlanacak ve raporda linkle paylaşılacaktır.
+ video YouTube'da yayınlanacak ve raporda linkle paylaşılacaktır.
 
 ## 📚 Kaynaklar
 
