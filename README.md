@@ -207,7 +207,11 @@ Paket yakalama ve analiz için:
 
 ##  Video
 
- video YouTube'da yayınlanacak ve raporda linkle paylaşılacaktır.
+Video and details in the link down. 
+
+https://youtu.be/m_LYjTGF-uM?si=OwVWGnWi-n77c5ZX
+
+
 
 ## 📚 Kaynaklar
 
